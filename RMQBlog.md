@@ -32,6 +32,8 @@ So lets say we have a cluster of 2 nodes R1 and R2 as RMQ servers R1 has queue q
 
 ![RMQ cluster before queue mirroring](/rmq-images/rmq_before.png)
 
+![RMQ cluster after queue mirroring](/rmq-images/rmq_after.png)
+
 ## Working of a Highly available RabbitMQ cluster
 
 In the above example the queues q1a,q1b and q2 are called the master queues, while the mirrors q1a_m, q1b_m and q2_m are called slave queues. 
